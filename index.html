@@ -101,7 +101,9 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<tw-storydata name="D&amp;D Premise Generator" startnode="1" creator="Twine" creator-version="2.3.7" ifid="BC83D246-7970-472A-BC4A-8DC3D9770F91" zoom="1" format="SugarCube" format-version="2.31.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">$('#ui-bar').remove();
-$(document.head).find('#style-ui-bar').remove();</script><tw-passagedata pid="1" name="Start" tags="" position="859,388.5" size="100,100">&lt;&lt;set $magical_item_options to [&quot;staff&quot;,&quot;ring&quot;,&quot;sword&quot;,&quot;cloak&quot;,&quot;wand&quot;]&gt;&gt;\
+$(document.head).find('#style-ui-bar').remove();</script><tw-passagedata pid="1" name="Start" tags="" position="859,388.5" size="100,100">&lt;&lt;set $witch_gender to either(&quot;witch&quot;,&quot;warlock&quot;)&gt;&gt;\
+\
+&lt;&lt;set $magical_item_options to [&quot;staff&quot;,&quot;ring&quot;,&quot;sword&quot;,&quot;cloak&quot;,&quot;wand&quot;]&gt;&gt;\
 &lt;&lt;set $magical_item to either($magical_item_options)&gt;&gt;\
 \
 &lt;&lt;set $forest_race_plural_options to [&quot;ents&quot;,&quot;wood-elves&quot;,&quot;nymphs&quot;,&quot;satyrs&quot;,&quot;roothearts&quot;,&quot;werefolk&quot;]&gt;&gt;\
@@ -126,11 +128,11 @@ $(document.head).find('#style-ui-bar').remove();</script><tw-passagedata pid="1"
 &lt;&lt;set $band_type_plural_options to [&quot;pirates&quot;,&quot;thieves&quot;,&quot;mercenaries&quot;,&quot;bandits&quot;,&quot;assassins&quot;]&gt;&gt;\
 &lt;&lt;set $band_type_plural to either($band_type_plural_options)&gt;&gt;\
 \
-&lt;&lt;set $ancient_monster_options to [&quot;dragon&quot;,&quot;serpent&quot;,&quot;basilisk&quot;,&quot;kaiju&quot;]&gt;&gt;\
+&lt;&lt;set $ancient_monster_options to [&quot;dragon&quot;,&quot;serpent&quot;,&quot;basilisk&quot;,&quot;kaiju&quot;,&quot;golem&quot;]&gt;&gt;\
 &lt;&lt;set $ancient_monster1 to either($ancient_monster_options)&gt;&gt;\
 &lt;&lt;set $ancient_monster2 to either($ancient_monster_options)&gt;&gt;\
 \
-&lt;&lt;set $threat_options to [&quot;A cruel and evil king&quot;,&quot;An invading $race_singular1 tribe&quot;,&quot;A dark Witch/Warlock&quot;,&quot;A powerful undead Lich&quot;,&quot;A large $army_type army&quot;,&quot;A large, ancient $ancient_monster1&quot;,&quot;A barbarian chieftain&quot;,&quot;A cabal of Psion Masters&quot;,&quot;A rogue general&#39;s army&quot;,&quot;A lesser Demon of Hell&quot;,&quot;A band of $band_type_plural&quot;,&quot;A mythological terror&quot;]&gt;&gt;\
+&lt;&lt;set $threat_options to [&quot;A cruel and evil king&quot;,&quot;An invading $race_singular1 tribe&quot;,&quot;A dark $witch_gender&quot;,&quot;A powerful undead Lich&quot;,&quot;A large $army_type army&quot;,&quot;A large, ancient $ancient_monster1&quot;,&quot;A barbarian chieftain&quot;,&quot;A cabal of Psion Masters&quot;,&quot;A rogue general&#39;s army&quot;,&quot;A lesser Demon of Hell&quot;,&quot;A band of $band_type_plural&quot;,&quot;A mythological terror&quot;]&gt;&gt;\
 &lt;&lt;set $threat to either($threat_options)&gt;&gt;\
 \
 &lt;&lt;set $goal_options to [&quot;completely destroy&quot;,&quot;corrupt with dark powers&quot;,&quot;steal from another land&quot;,&quot;capture from the enemy&quot;,&quot;magically merge with&quot;,&quot;protect from harm&quot;,&quot;magically empower&quot;,&quot;craft from rare materials&quot;,&quot;alchemically synthesize&quot;,&quot;pacify through force&quot;,&quot;occupy with an army&quot;,&quot;do terrible things to&quot;]&gt;&gt;\
