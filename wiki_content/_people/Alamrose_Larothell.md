@@ -1,8 +1,9 @@
 ---
 layout: default
-photo: https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/DannyPhantomTitleCard.jpg/250px-DannyPhantomTitleCard.jpg
 name: Alamrose Larothell
+photo: https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/DannyPhantomTitleCard.jpg/250px-DannyPhantomTitleCard.jpg
+nicknames: Fuckmaster
+age: 27
+bio: Ghost boy
 gender: Male
 ---
-# {{page.name}}
-![{{page.name}}]({{page.photo}} "{{page.name}}")
