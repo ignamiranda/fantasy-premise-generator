@@ -1,5 +1,6 @@
 ---
 layout: default
-title: Alamrose Larothell
+name: Alamrose Larothell
+title: {{page.name}}
 ---
 # Alamrose Larothell
