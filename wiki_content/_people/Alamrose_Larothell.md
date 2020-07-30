@@ -3,5 +3,4 @@ layout: default
 name: Alamrose Larothell
 gender: Male
 ---
-
-### Extra content
+![Image Test](https://i.imgur.com/q4Yjkfp.jpg "Image Test")
