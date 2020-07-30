@@ -4,5 +4,5 @@ photo: https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/DannyPhantomTitleCar
 name: Alamrose Larothell
 gender: Male
 ---
-# {{page.title}}
-![{{page.title}}]({{page.photo}} "{{page.title}}")
+# {{page.name}}
+![{{page.name}}]({{page.photo}} "{{page.name}}")
