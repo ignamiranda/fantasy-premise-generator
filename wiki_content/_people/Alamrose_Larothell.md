@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Alamrose Larothell
+name: Alamrose Larothell
 gender: Male
 age: 27
 ---
-# {{page.title}}
+# {{page.name}}
 
 ## General Info
 
