@@ -3,7 +3,8 @@ layout: default
 title: People
 ---
 # {{ page.title }}
-test
+test2
+
 {% for person in site.people %}
   <h2>
     <a href="{{ person.url }}">
