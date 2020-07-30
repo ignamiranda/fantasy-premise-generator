@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 name: Alamrose Larothell
 gender: Male
 ---
