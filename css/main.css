@@ -33,6 +33,7 @@ p {
     color: #333;
 }
 img {
+  text-align: center;
   height: auto; 
   width: auto;
   width:25%;
