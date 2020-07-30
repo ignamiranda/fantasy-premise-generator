@@ -6,5 +6,7 @@ class: Rogue
 title: {{page.name}}
 ---
 # {{page.name}}
+
 Race: {{page.race}}
+
 Class: {{page.class}}
