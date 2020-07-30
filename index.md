@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ignacio Miranda
+title: Thorlacuin D&D Wiki
 ---
-# Hi there, I'm Ignacio Miranda!
-Gamer extraordinaire!
+# Hi there, welcome to the Thorlacuin D&D Wiki!
+Aaaaaaaaa!!!
