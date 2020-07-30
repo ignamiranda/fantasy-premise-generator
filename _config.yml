@@ -5,7 +5,10 @@ collections_dir: wiki_content
 
 collections:
   - people
+  - sessions
   
 collections:
   people:
+    output: true
+  sessions:
     output: true
