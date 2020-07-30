@@ -1,7 +1,6 @@
 ---
 layout: default
 name: Alamrose Larothell
-race: Half-Elf
-class: Rogue
+gender: Male
 ---
 # {{page.name}}
