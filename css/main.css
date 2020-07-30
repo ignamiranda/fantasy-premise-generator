@@ -40,7 +40,8 @@ img {
   /* Scale the iamge */
   height: auto; 
   width: auto;
-  width:25%;
+  min-width:25%;
+  max-width:80%;
 }
 footer {
     border-top: 1px solid #d5d5d5;
