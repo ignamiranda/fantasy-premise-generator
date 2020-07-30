@@ -1,6 +1,8 @@
 ---
 layout: default
+photo: https://i.imgur.com/q4Yjkfp.jpg
 name: Alamrose Larothell
 gender: Male
 ---
-![Image Test](https://i.imgur.com/q4Yjkfp.jpg "Image Test")
+# {{page.title}}
+![{{page.title}}]({{page.photo}} "{{page.title}}")
