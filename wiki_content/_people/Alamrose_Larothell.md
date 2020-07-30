@@ -13,3 +13,9 @@ age: 27
 **Age:** {{page.age}}
 
 **Gender:** {{page.gender}}
+
+## Memberships
+
+## Residences
+
+## Connections
