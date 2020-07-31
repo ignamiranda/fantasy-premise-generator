@@ -4,11 +4,23 @@ markdown: kramdown
 collections_dir: wiki_content
 
 collections:
+  - concepts
+  - groups
+  - items
   - people
+  - places
   - sessions
-  
+
 collections:
+  concepts:
+    output: true
+  groups:
+    output: true
+  items:
+    output: true
   people:
+    output: true
+  places:
     output: true
   sessions:
     output: true
