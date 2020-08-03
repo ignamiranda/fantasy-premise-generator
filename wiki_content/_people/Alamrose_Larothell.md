@@ -7,7 +7,7 @@ gender: Male
 
 ## General Info
 
-** Class:** Phantom Rogue
+**Class:** Phantom Rogue
 
 **Race:** Soulbound Half-Elf Specter
 
